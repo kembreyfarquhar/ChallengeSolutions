@@ -5,7 +5,7 @@ This is a small, yet growing, collection of solutions I've come up with for vari
 created by @kmcknight1
 [GitHub](https://github.com/kmcknight1)
 
-##Challenges
+## Challenges
 
 - [Stack Machine](/StackMachine)
 
