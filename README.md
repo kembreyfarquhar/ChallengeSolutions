@@ -6,6 +6,6 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 
 ## Challenges
 
-- [Stack Machine](/Challenges/StackMachine/stackMachine.md)
+- [Stack Machine](https://github.com/kmcknight1/ChallengeSolutions/blob/master/Challenges/StackMachine/stackMachine.md)
 
 - [Twin Primes](/Challenges/TwinPrimes)
