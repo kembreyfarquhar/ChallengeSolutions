@@ -1,11 +1,76 @@
-# ChallengeSolutions
+# Code Challenge Solutions
 
 This is a small, yet growing, collection of solutions I've come up with for various coding challenges. I'm making this to 1) have an organized collection of my solutions, 2) force myself to explain my solutions, ensuring that I actually know what's going on, and 3) to continully come back to after time to see if/how I would do these differently. :dancer:
 
 created by [@kmcknight1](https://github.com/kmcknight1)
 
-## Challenges
+## Table of Contents
 
-- [Stack Machine](https://github.com/kmcknight1/ChallengeSolutions/blob/master/Challenges/StackMachine/stackMachine.md)
+- [Stack Machine](#stack-machine)
+- [Twin Primes](#twin-primes)
 
-- [Twin Primes](/Challenges/TwinPrimes)
+### Stack Machine
+
+A stack machine is a simple system that performs arithmetic operations on an input string of numbers and operators. It contains a stack that can store an arbitrary number of 12-bit unsigned integers. Initially the stack is empty. The machine processes a string of characters in the following way:
+
+- the characters of the string are processed one by one
+
+- if the current character is a digit `[0-9]`, the machine pushes the value of that digit onto its stack
+
+- if the current character is `+`, the machine pops the two topmost values from its stack, adds them and pushes the result onto the stack
+
+- if the current character is `*`, the machine pops the two topmost values from its stack, multiplies them and pushes the result onto the stack
+
+- after the machine has processed the whole string it returns the topmost value of its stack as the result
+
+- the machine reports an error if any operation it performs (addition or multiplication) results in an overflow
+
+- the machine reports an error if it tries to pop an element from its stack when the stack is empty, or if the stack is empty after the machine has processed the whole string.
+
+For example, given the string `"13+62*7+*"` the machine will perform the following operations:
+
+| character | comment                | stack    |
+| --------- | ---------------------- | -------- |
+|           |                        | empty    |
+| '1'       | push 1 onto the stack  | 1        |
+|           |                        |
+| '3'       | push 3 onto the stack  | 1, 3     |
+|           |                        |
+| '+'       | perform addition       | 4        |
+|           |                        |
+| '6'       | push 6 onto the stack  | 4, 6     |
+|           |                        |
+| '2'       | push 2 onto the stack  | 4, 6, 2  |
+|           |                        |
+| '\*'      | perform multiplication | 4, 12    |
+|           |                        |
+| '7'       | push 7 onto the stack  | 4, 12, 7 |
+|           |                        |
+| '+'       | perform addition       | 4, 19    |
+|           |                        |
+| '\*'      | perform multiplication | 76       |
+|           |                        |
+
+The machine will return **76** as the result as it is the topmost element of its stack.Write a function that, given a string S consisting of N characters containing input for the stack machine, returns the result the machine would return if given this string. The function should return -1 if the machine would report an error when processing the string.For example, given String `S = "13+62*7+*"` the function should return **76**, as explained in the example above. Given String `S = "11++"` the function should return **-1**.
+
+**Assume that**
+
+- the length of S is within the range `[0..200,000]`
+
+- string S consists only of characters `[0-9]`, `+` and/or `*`.
+
+[**SEE SOLUION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/Challenges/StackMachine/stackMachine.js)
+
+### Twin Primes
+
+A twin prime is a prime number that differs from another prime number by two. Write a function called isTwinPrime which takes an integer and returns true if it is a twin prime, or false if it is not.
+
+**Example:**
+
+- 5 is a prime, and 5 + 2 = 7, which is also a prime, so returns `true`.
+
+- 9 is not a prime, and so does not need checking, so it returns `false`.
+
+- 7 is a prime, but 7 + 2 = 9, which is not a prime. However, 7 - 2 = 5, which is a prime, so it returns `true`.
+
+- 23 is a prime, but 23 + 2 is 25, which is not a prime. 23 - 2 is 21, which isn't a prime either, so 23 is not a twin prime, return `false`.
