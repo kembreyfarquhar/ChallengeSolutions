@@ -47,3 +47,5 @@ The machine will return **76** as the result as it is the topmost element of its
 - the length of S is within the range `[0..200,000]`
 
 - string S consists only of characters `[0-9]`, `+` and/or `*`.
+
+[**SEE SOLUION**](/stackMachine.js)
