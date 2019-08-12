@@ -59,7 +59,7 @@ The machine will return **76** as the result as it is the topmost element of its
 
 - string S consists only of characters `[0-9]`, `+` and/or `*`.
 
-[**SEE SOLUION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/Challenges/StackMachine/stackMachine.js)
+[**SEE SOLUION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
 
 ### Twin Primes
 
@@ -74,3 +74,5 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 - 7 is a prime, but 7 + 2 = 9, which is not a prime. However, 7 - 2 = 5, which is a prime, so it returns `true`.
 
 - 23 is a prime, but 23 + 2 is 25, which is not a prime. 23 - 2 is 21, which isn't a prime either, so 23 is not a twin prime, return `false`.
+
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
