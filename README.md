@@ -94,6 +94,8 @@ console.log(longestString(strings1)); // <--- 'really, really long!'
 
 Edge case: If you had an array which had two "longest" strings of equal length, your function should just return the first one.
 
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
+
 ### Reverse String
 
 Write a function called reverseString that accepts a string and returns a reversed copy of the string.
@@ -106,6 +108,8 @@ Write a function called reverseString that accepts a string and returns a revers
 | 'asdf'        | 'fdsa'        |
 | 'CS rocks!'   | '!skcor SC'   |
 
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
+
 ### Reverse Number
 
 Write a function called reverseNumber that reverses a number.
@@ -117,6 +121,8 @@ Write a function called reverseNumber that reverses a number.
 | 12345 | 54321  |
 | 555   | 555    |
 
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
+
 ### Reverse Case
 
 Write a function that takes in a string, reverses the 'casing' of that string, and returns the "reversed-casing" string.
@@ -127,3 +133,5 @@ Write a function that takes in a string, reverses the 'casing' of that string, a
 const string = "HELLO world!";
 console.log(reverseCase(string)); // <--- hello WORLD!
 ```
+
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
