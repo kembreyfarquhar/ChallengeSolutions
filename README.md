@@ -63,7 +63,7 @@ The machine will return **76** as the result as it is the topmost element of its
 
 - string S consists only of characters `[0-9]`, `+` and/or `*`.
 
-[**SEE SOLUION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
+[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
 
 ### Twin Primes
 
