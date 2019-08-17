@@ -40,23 +40,14 @@ For example, given the string `"13+62*7+*"` the machine will perform the followi
 | character | comment                | stack    |
 | --------- | ---------------------- | -------- |
 |           |                        | empty    |
-|           |                        |          |
 | '1'       | push 1 onto the stack  | 1        |
-|           |                        |
 | '3'       | push 3 onto the stack  | 1, 3     |
-|           |                        |
 | '+'       | perform addition       | 4        |
-|           |                        |
 | '6'       | push 6 onto the stack  | 4, 6     |
-|           |                        |
 | '2'       | push 2 onto the stack  | 4, 6, 2  |
-|           |                        |
 | '\*'      | perform multiplication | 4, 12    |
-|           |                        |
 | '7'       | push 7 onto the stack  | 4, 12, 7 |
-|           |                        |
 | '+'       | perform addition       | 4, 19    |
-|           |                        |
 | '\*'      | perform multiplication | 76       |
 
 The machine will return **76** as the result as it is the topmost element of its stack.Write a function that, given a string S consisting of N characters containing input for the stack machine, returns the result the machine would return if given this string. The function should return -1 if the machine would report an error when processing the string.For example, given String `S = "13+62*7+*"` the function should return **76**, as explained in the example above. Given String `S = "11++"` the function should return **-1**.
