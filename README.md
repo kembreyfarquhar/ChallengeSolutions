@@ -123,6 +123,8 @@ Write a function called reverseNumber that reverses a number.
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
 
+#
+
 ### Reverse Case
 
 Write a function that takes in a string, reverses the 'casing' of that string, and returns the "reversed-casing" string.
