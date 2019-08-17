@@ -1,6 +1,6 @@
 # Code Challenge Solutions
 
-This is a small, yet growing, collection of solutions I've come up with for various coding challenges. I'm making this to 1) have an organized collection of my solutions, 2) force myself to explain my solutions, ensuring that I actually know what's going on, and 3) to continully come back to after time to see if/how I would do these differently. :dancer:
+This is a small, yet growing, collection of solutions that I've concocted for various code challenges. I created this repository with intentions to 1) have an organized collection of my solutions, 2) force myself to explain said solutions, ensuring that I understand why/how the solutions works, and 3) to revisit said solutions at a later date, utilizing my ever-growing coding abilities to determine if/how I could solve them in a better/more efficient manner. :dancer:
 
 created by [@kmcknight1](https://github.com/kmcknight1)
 
