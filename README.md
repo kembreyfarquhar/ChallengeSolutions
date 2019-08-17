@@ -15,7 +15,9 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 - [Reverse Number](#reverse-number)
 - [Reverse Case](#reverse-case)
 
-#### Stack Machine
+#
+
+### Stack Machine
 
 A stack machine is a simple system that performs arithmetic operations on an input string of numbers and operators. It contains a stack that can store an arbitrary number of 12-bit unsigned integers. Initially the stack is empty. The machine processes a string of characters in the following way:
 
@@ -38,6 +40,7 @@ For example, given the string `"13+62*7+*"` the machine will perform the followi
 | character | comment                | stack    |
 | --------- | ---------------------- | -------- |
 |           |                        | empty    |
+|           |                        |          |
 | '1'       | push 1 onto the stack  | 1        |
 |           |                        |
 | '3'       | push 3 onto the stack  | 1, 3     |
@@ -55,7 +58,6 @@ For example, given the string `"13+62*7+*"` the machine will perform the followi
 | '+'       | perform addition       | 4, 19    |
 |           |                        |
 | '\*'      | perform multiplication | 76       |
-|           |                        |
 
 The machine will return **76** as the result as it is the topmost element of its stack.Write a function that, given a string S consisting of N characters containing input for the stack machine, returns the result the machine would return if given this string. The function should return -1 if the machine would report an error when processing the string.For example, given String `S = "13+62*7+*"` the function should return **76**, as explained in the example above. Given String `S = "11++"` the function should return **-1**.
 
@@ -66,6 +68,8 @@ The machine will return **76** as the result as it is the topmost element of its
 - string S consists only of characters `[0-9]`, `+` and/or `*`.
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
+
+#
 
 ### Twin Primes
 
@@ -83,6 +87,8 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
 
+#
+
 ### Longest String
 
 Write a function that takes an array of strings and return the longest string in the array.
@@ -98,6 +104,8 @@ Edge case: If you had an array which had two "longest" strings of equal length, 
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
 
+#
+
 ### Reverse String
 
 Write a function called reverseString that accepts a string and returns a reversed copy of the string.
@@ -111,6 +119,8 @@ Write a function called reverseString that accepts a string and returns a revers
 | 'CS rocks!'   | '!skcor SC'   |
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
+
+#
 
 ### Reverse Number
 
