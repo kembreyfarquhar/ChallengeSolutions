@@ -9,17 +9,19 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 ### Table of Contents
 
 - [**Stack Machine**](#stack-machine)
-- [Twin Primes](#twin-primes)
-- [Longest String](#longest-string)
-- [Reverse String](#reverse-string)
-- [Reverse Number](#reverse-number)
-- [Reverse Case](#reverse-case)
+- [**Twin Primes**](#twin-primes)
+- [**Longest String**](#longest-string)
+- [**Reverse String**](#reverse-string)
+- [**Reverse Number**](#reverse-number)
+- [**Reverse Case**](#reverse-case)
 
 #
 
 ### Stack Machine
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
+
+**TASK**
 
 A stack machine is a simple system that performs arithmetic operations on an input string of numbers and operators. It contains a stack that can store an arbitrary number of 12-bit unsigned integers. Initially the stack is empty. The machine processes a string of characters in the following way:
 
@@ -64,9 +66,13 @@ The machine will return **76** as the result as it is the topmost element of its
 
 ### Twin Primes
 
+:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
+
+**TASK**
+
 A twin prime is a prime number that differs from another prime number by two. Write a function called isTwinPrime which takes an integer and returns true if it is a twin prime, or false if it is not.
 
-**Example:**
+**For Example:**
 
 - 5 is a prime, and 5 + 2 = 7, which is also a prime, so returns `true`.
 
@@ -76,15 +82,17 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 
 - 23 is a prime, but 23 + 2 is 25, which is not a prime. 23 - 2 is 21, which isn't a prime either, so 23 is not a twin prime, return `false`.
 
-[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
-
 #
 
 ### Longest String
 
+:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
+
+**TASK**
+
 Write a function that takes an array of strings and return the longest string in the array.
 
-**For example:**
+**For Example:**
 
 ```javascript
 const strings1 = ["short", "really, really long!", "medium"];
@@ -93,11 +101,13 @@ console.log(longestString(strings1)); // <--- 'really, really long!'
 
 Edge case: If you had an array which had two "longest" strings of equal length, your function should just return the first one.
 
-[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
-
 #
 
 ### Reverse String
+
+:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
+
+**TASK**
 
 Write a function called reverseString that accepts a string and returns a reversed copy of the string.
 
@@ -109,11 +119,13 @@ Write a function called reverseString that accepts a string and returns a revers
 | 'asdf'        | 'fdsa'        |
 | 'CS rocks!'   | '!skcor SC'   |
 
-[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
-
 #
 
 ### Reverse Number
+
+:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
+
+**TASK**
 
 Write a function called reverseNumber that reverses a number.
 
@@ -124,11 +136,13 @@ Write a function called reverseNumber that reverses a number.
 | 12345 | 54321  |
 | 555   | 555    |
 
-[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
-
 #
 
 ### Reverse Case
+
+:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
+
+**TASK**
 
 Write a function that takes in a string, reverses the 'casing' of that string, and returns the "reversed-casing" string.
 
@@ -138,5 +152,3 @@ Write a function that takes in a string, reverses the 'casing' of that string, a
 const string = "HELLO world!";
 console.log(reverseCase(string)); // <--- hello WORLD!
 ```
-
-[**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
