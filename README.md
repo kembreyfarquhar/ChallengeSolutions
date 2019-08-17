@@ -8,6 +8,10 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 
 - [Stack Machine](#stack-machine)
 - [Twin Primes](#twin-primes)
+- [Longest String](#longest-string)
+- [Reverse String](#reverse-string)
+- [Reverse Number](#reverse-number)
+- [Reverse Case](#reverse-case)
 
 ### Stack Machine
 
@@ -76,3 +80,50 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 - 23 is a prime, but 23 + 2 is 25, which is not a prime. 23 - 2 is 21, which isn't a prime either, so 23 is not a twin prime, return `false`.
 
 [**SEE SOLUTION**](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
+
+### Longest String
+
+Write a function that takes an array of strings and return the longest string in the array.
+
+**For example:**
+
+```javascript
+const strings1 = ["short", "really, really long!", "medium"];
+console.log(longestString(strings1)); // <--- 'really, really long!'
+```
+
+Edge case: If you had an array which had two "longest" strings of equal length, your function should just return the first one.
+
+### Reverse String
+
+Write a function called reverseString that accepts a string and returns a reversed copy of the string.
+
+**For Example:**
+
+| Input         | Output        |
+| ------------- | ------------- |
+| 'hello world' | 'dlrow olleh' |
+| 'asdf'        | 'fdsa'        |
+| 'CS rocks!'   | '!skcor SC'   |
+
+### Reverse Number
+
+Write a function called reverseNumber that reverses a number.
+
+**For Example:**
+
+| Input | Output |
+| ----- | ------ |
+| 12345 | 54321  |
+| 555   | 555    |
+
+### Reverse Case
+
+Write a function that takes in a string, reverses the 'casing' of that string, and returns the "reversed-casing" string.
+
+**For Example:**
+
+```javascript
+const string = "HELLO world!";
+console.log(reverseCase(string)); // <--- hello WORLD!
+```
