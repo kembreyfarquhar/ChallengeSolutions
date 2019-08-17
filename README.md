@@ -21,7 +21,7 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
 
-**TASK**
+**Task:**
 
 A stack machine is a simple system that performs arithmetic operations on an input string of numbers and operators. It contains a stack that can store an arbitrary number of 12-bit unsigned integers. Initially the stack is empty. The machine processes a string of characters in the following way:
 
@@ -56,7 +56,7 @@ For example, given the string `"13+62*7+*"` the machine will perform the followi
 
 The machine will return **76** as the result as it is the topmost element of its stack.Write a function that, given a string S consisting of N characters containing input for the stack machine, returns the result the machine would return if given this string. The function should return -1 if the machine would report an error when processing the string.For example, given String `S = "13+62*7+*"` the function should return **76**, as explained in the example above. Given String `S = "11++"` the function should return **-1**.
 
-**Assume that**
+**Assume that:**
 
 - the length of S is within the range `[0..200,000]`
 
@@ -68,7 +68,7 @@ The machine will return **76** as the result as it is the topmost element of its
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
 
-**TASK**
+**Task:**
 
 A twin prime is a prime number that differs from another prime number by two. Write a function called isTwinPrime which takes an integer and returns true if it is a twin prime, or false if it is not.
 
@@ -88,7 +88,7 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
 
-**TASK**
+**Task:**
 
 Write a function that takes an array of strings and return the longest string in the array.
 
@@ -107,7 +107,7 @@ Edge case: If you had an array which had two "longest" strings of equal length, 
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
 
-**TASK**
+**Task:**
 
 Write a function called reverseString that accepts a string and returns a reversed copy of the string.
 
@@ -125,7 +125,7 @@ Write a function called reverseString that accepts a string and returns a revers
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
 
-**TASK**
+**Task:**
 
 Write a function called reverseNumber that reverses a number.
 
@@ -142,7 +142,7 @@ Write a function called reverseNumber that reverses a number.
 
 :eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
 
-**TASK**
+**Task:**
 
 Write a function that takes in a string, reverses the 'casing' of that string, and returns the "reversed-casing" string.
 
