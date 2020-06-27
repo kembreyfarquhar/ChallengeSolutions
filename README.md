@@ -1,8 +1,8 @@
 # Code Challenge Solutions
 
-This is a small, yet growing, collection of solutions that I've concocted for various code challenges. I created this repository with intentions to 1) have an organized collection of my solutions, 2) force myself to explain said solutions, ensuring that I understand why/how the solutions works, and 3) to revisit said solutions at a later date, utilizing my ever-growing coding abilities to determine if/how I could solve them in a better/more efficient manner. :dancer:
+This is a small, yet growing, collection of solutions that I've created for various code challenges. I made this repository with intentions to 1) have an organized collection of my solutions, 2) force myself to explain said solutions, ensuring that I understand why/how the solutions works, and 3) to revisit said solutions at a later date, utilizing my ever-growing coding abilities to determine if/how I could solve them in a better/more efficient manner. :dancer:
 
-created by [@kmcknight1](https://github.com/kmcknight1)
+created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 #
 
@@ -14,12 +14,13 @@ created by [@kmcknight1](https://github.com/kmcknight1)
 - [**Reverse String**](#reverse-string)
 - [**Reverse Number**](#reverse-number)
 - [**Reverse Case**](#reverse-case)
+- [**Reverse Integer**](#reverse-integer)
 
 #
 
 ### Stack Machine
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
 
 **Task:**
 
@@ -66,7 +67,7 @@ The machine will return **76** as the result as it is the topmost element of its
 
 ### Twin Primes
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
 
 **Task:**
 
@@ -86,7 +87,7 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 
 ### Longest String
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
 
 **Task:**
 
@@ -105,7 +106,7 @@ Edge case: If you had an array which had two "longest" strings of equal length, 
 
 ### Reverse String
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
 
 **Task:**
 
@@ -123,7 +124,7 @@ Write a function called reverseString that accepts a string and returns a revers
 
 ### Reverse Number
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
 
 **Task:**
 
@@ -140,7 +141,7 @@ Write a function called reverseNumber that reverses a number.
 
 ### Reverse Case
 
-:eyes: [See Solution](https://github.com/kmcknight1/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
 
 **Task:**
 
@@ -152,3 +153,22 @@ Write a function that takes in a string, reverses the 'casing' of that string, a
 const string = "HELLO world!";
 console.log(reverseCase(string)); // <--- hello WORLD!
 ```
+
+### Reverse Integer
+
+:eyes: [See Solution]()
+
+**Task**
+
+Given a 32-bit signed integer, reverse digits of an integer.
+
+**For Example:**
+
+| Input | Output |
+| ----- | ------ |
+| 123   | 321    |
+| -123  | -321   |
+| 120   | 21     |
+
+**Note:**
+Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
