@@ -20,7 +20,7 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Stack Machine
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/stackMachine.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/stackMachine.js)
 
 **Task:**
 
@@ -67,7 +67,7 @@ The machine will return **76** as the result as it is the topmost element of its
 
 ### Twin Primes
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/twinPrimes.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/twinPrimes.js)
 
 **Task:**
 
@@ -87,7 +87,7 @@ A twin prime is a prime number that differs from another prime number by two. Wr
 
 ### Longest String
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/longestString.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/longestString.js)
 
 **Task:**
 
@@ -106,7 +106,7 @@ Edge case: If you had an array which had two "longest" strings of equal length, 
 
 ### Reverse String
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseString.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/reverseString.js)
 
 **Task:**
 
@@ -124,7 +124,7 @@ Write a function called reverseString that accepts a string and returns a revers
 
 ### Reverse Number
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseNumber.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/reverseNumber.js)
 
 **Task:**
 
@@ -141,7 +141,7 @@ Write a function called reverseNumber that reverses a number.
 
 ### Reverse Case
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/reverseCase.js)
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/reverseCase.js)
 
 **Task:**
 
@@ -156,7 +156,7 @@ console.log(reverseCase(string)); // <--- hello WORLD!
 
 ### Reverse Integer
 
-:eyes: [See Solution]()
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/reverseInteger.py)
 
 **Task**
 
