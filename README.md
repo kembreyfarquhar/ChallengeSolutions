@@ -194,4 +194,4 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 **Follow up:**
 
-Coud you solve it without converting the integer to a string? (I took up this challenge and solved it with out converting the int to a string).
+Coud you solve it without converting the integer to a string? (I took up this challenge and solved it without converting the int to a string).
