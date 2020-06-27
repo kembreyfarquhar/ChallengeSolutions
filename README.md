@@ -15,6 +15,7 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 - [**Reverse Number**](#reverse-number)
 - [**Reverse Case**](#reverse-case)
 - [**Reverse Integer**](#reverse-integer)
+- [**Palindrome Number**](#palindrome-number)
 
 #
 
@@ -172,3 +173,25 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 **Note:**
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+### Palindrome Number
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/palindromeNumber.py)
+
+**Task**
+
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+**For Example:**
+
+| Input | Output |
+| ----- | ------ |
+| 121   | True   |
+| -121  | False  |
+| 10    | False  |
+
+> Explanation for 2nd example: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+**Follow up:**
+
+Coud you solve it without converting the integer to a string? (I took up this challenge and solved it with out converting the int to a string).
