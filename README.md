@@ -8,14 +8,14 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Table of Contents
 
-| JavaScript                            | Python                                              |
-| ------------------------------------- | --------------------------------------------------- |
-| [**Stack Machine**](#stack-machine)   | [**Reverse Integer**](#reverse-integer)             |
-| [**Twin Primes**](#twin-primes)       | [**Palindrome Number**](#palindrome-number)         |
-| [**Longest String**](#longest-string) | [**Longest Common Prefix**](#longest-common-prefix) |
-| [**Reverse String**](#reverse-string) |                                                     |
-| [**Reverse Number**](#reverse-number) |                                                     |
-| [**Reverse Case**](#reverse-case)     |                                                     |
+| JavaScript                            | Python                                                |
+| ------------------------------------- | ----------------------------------------------------- |
+| [**Stack Machine**](#stack-machine)   | [**Reverse Integer**](#reverse-integer)               |
+| [**Twin Primes**](#twin-primes)       | [**Palindrome Number**](#palindrome-number)           |
+| [**Longest String**](#longest-string) | [**Longest Common Prefix**](#longest-common-prefix)   |
+| [**Reverse String**](#reverse-string) | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
+| [**Reverse Number**](#reverse-number) |                                                       |
+| [**Reverse Case**](#reverse-case)     |                                                       |
 
 #
 
@@ -215,3 +215,21 @@ If there is no common prefix, return an empty string "".
 **Note:**
 
 All given inputs are in lowercase letters a-z.
+
+### Merge Two Sorted Lists
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/mergeTwoSortedLists.py)
+
+**Task**
+
+Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
+
+**For Example:**
+
+| Input            | Output           |
+| ---------------- | ---------------- |
+| 1->2->4, 1->3->4 | 1->1->2->3->4->4 |
+
+**Note:**
+
+These are linked lists, not arrays.
