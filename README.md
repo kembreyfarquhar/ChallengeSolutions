@@ -195,3 +195,23 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 **Follow up:**
 
 Coud you solve it without converting the integer to a string? (I took up this challenge and solved it without converting the int to a string).
+
+### Longest Common Prefix
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/longestCommonPrefix.py)
+
+**Task**
+
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+
+**For Example:**
+
+| Input                        | Output |
+| ---------------------------- | ------ |
+| ["flower", "flow", "flight"] | "fl"   |
+| [ "dog","racecar","car" ]    | ""     |
+
+**Note:**
+
+All given inputs are in lowercase letters a-z.
