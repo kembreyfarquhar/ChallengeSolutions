@@ -8,15 +8,14 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Table of Contents
 
-- [**Stack Machine**](#stack-machine)
-- [**Twin Primes**](#twin-primes)
-- [**Longest String**](#longest-string)
-- [**Reverse String**](#reverse-string)
-- [**Reverse Number**](#reverse-number)
-- [**Reverse Case**](#reverse-case)
-- [**Reverse Integer**](#reverse-integer)
-- [**Palindrome Number**](#palindrome-number)
-- [**Longest Common Prefix**](#longest-common-prefix)
+| JavaScript                            | Python                                              |
+| ------------------------------------- | --------------------------------------------------- |
+| [**Stack Machine**](#stack-machine)   | [**Reverse Integer**](#reverse-integer)             |
+| [**Twin Primes**](#twin-primes)       | [**Palindrome Number**](#palindrome-number)         |
+| [**Longest String**](#longest-string) | [**Longest Common Prefix**](#longest-common-prefix) |
+| [**Reverse String**](#reverse-string) |                                                     |
+| [**Reverse Number**](#reverse-number) |                                                     |
+| [**Reverse Case**](#reverse-case)     |                                                     |
 
 #
 
