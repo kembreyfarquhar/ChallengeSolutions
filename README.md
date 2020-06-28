@@ -16,6 +16,7 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 - [**Reverse Case**](#reverse-case)
 - [**Reverse Integer**](#reverse-integer)
 - [**Palindrome Number**](#palindrome-number)
+- [**Longest Common Prefix**](#longest-common-prefix)
 
 #
 
