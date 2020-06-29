@@ -8,14 +8,15 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Table of Contents
 
-| JavaScript                            | Python                                                |
-| ------------------------------------- | ----------------------------------------------------- |
-| [**Stack Machine**](#stack-machine)   | [**Reverse Integer**](#reverse-integer)               |
-| [**Twin Primes**](#twin-primes)       | [**Palindrome Number**](#palindrome-number)           |
-| [**Longest String**](#longest-string) | [**Longest Common Prefix**](#longest-common-prefix)   |
-| [**Reverse String**](#reverse-string) | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
-| [**Reverse Number**](#reverse-number) |                                                       |
-| [**Reverse Case**](#reverse-case)     |                                                       |
+| JavaScript                                  | Python                                                |
+| ------------------------------------------- | ----------------------------------------------------- |
+| [**Stack Machine**](#stack-machine)         | [**Reverse Integer**](#reverse-integer)               |
+| [**Twin Primes**](#twin-primes)             | [**Palindrome Number**](#palindrome-number)           |
+| [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)   |
+| [**Reverse String**](#reverse-string)       | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
+| [**Reverse Number**](#reverse-number)       |                                                       |
+| [**Reverse Case**](#reverse-case)           |                                                       |
+| [**Valid Parentheses**](#valid-parentheses) |                                                       |
 
 #
 
@@ -155,6 +156,32 @@ const string = "HELLO world!";
 console.log(reverseCase(string)); // <--- hello WORLD!
 ```
 
+### Valid Parentheses
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/validParentheses.js)
+
+**Task**
+
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+- Note that an empty string is also considered valid.
+
+**For Example:**
+
+| Input    | Output |
+| -------- | ------ |
+| "()"     | true   |
+| "()[]{}" | true   |
+| "(]"     | false  |
+| "([)]"   | false  |
+| "{[]}"   | true   |
+
+**Link to Challenge:** https://leetcode.com/problems/valid-parentheses/
+
 ### Reverse Integer
 
 :eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/reverseInteger.py)
@@ -173,6 +200,8 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 **Note:**
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+**Link to Challenge:** https://leetcode.com/problems/reverse-integer/
 
 ### Palindrome Number
 
@@ -196,6 +225,8 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 Coud you solve it without converting the integer to a string? (I took up this challenge and solved it without converting the int to a string).
 
+**Link to Challenge:** https://leetcode.com/problems/palindrome-number/
+
 ### Longest Common Prefix
 
 :eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/longestCommonPrefix.py)
@@ -216,6 +247,8 @@ If there is no common prefix, return an empty string "".
 
 All given inputs are in lowercase letters a-z.
 
+**Link to Challenge:** https://leetcode.com/problems/longest-common-prefix/
+
 ### Merge Two Sorted Lists
 
 :eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/mergeTwoSortedLists.py)
@@ -233,3 +266,5 @@ Merge two sorted linked lists and return it as a new sorted list. The new list s
 **Note:**
 
 These are linked lists, not arrays.
+
+**Link to Challenge:** https://leetcode.com/problems/merge-two-sorted-lists/
