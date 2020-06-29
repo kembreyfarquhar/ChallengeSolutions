@@ -11,13 +11,14 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 | JavaScript                                  | Python                                                |
 | ------------------------------------------- | ----------------------------------------------------- |
 | [**Reverse Integer**](#reverse-integer)     | [**Reverse Integer**](#reverse-integer)               |
-| [**Stack Machine**](#stack-machine)         | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
-| [**Twin Primes**](#twin-primes)             | [**Palindrome Number**](#palindrome-number)           |
+| [**Palindrome Number**](#palindrome-number) | [**Palindrome Number**](#palindrome-number)           |
+| [**Twin Primes**](#twin-primes)             | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
 | [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)   |
 | [**Reverse String**](#reverse-string)       |                                                       |
 | [**Reverse Number**](#reverse-number)       |                                                       |
 | [**Reverse Case**](#reverse-case)           |                                                       |
 | [**Valid Parentheses**](#valid-parentheses) |                                                       |
+| [**Stack Machine**](#stack-machine)         |                                                       |
 
 #
 
@@ -208,7 +209,9 @@ Assume we are dealing with an environment which could only store integers within
 
 ### Palindrome Number
 
-:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/palindromeNumber.py)
+:eyes: [See Python Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/palindromeNumber.py)
+
+:eyes: [See JavaScript Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/palindromeNumber.js)
 
 **Task**
 
