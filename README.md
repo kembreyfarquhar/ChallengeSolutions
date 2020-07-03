@@ -8,17 +8,17 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Table of Contents
 
-| JavaScript                                  | Python                                                |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [**Reverse Integer**](#reverse-integer)     | [**Reverse Integer**](#reverse-integer)               |
-| [**Palindrome Number**](#palindrome-number) | [**Palindrome Number**](#palindrome-number)           |
-| [**Twin Primes**](#twin-primes)             | [**Merge Two Sorted Lists**](#merge-two-sorted-lists) |
-| [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)   |
-| [**Reverse String**](#reverse-string)       |                                                       |
-| [**Reverse Number**](#reverse-number)       |                                                       |
-| [**Reverse Case**](#reverse-case)           |                                                       |
-| [**Valid Parentheses**](#valid-parentheses) |                                                       |
-| [**Stack Machine**](#stack-machine)         |                                                       |
+| JavaScript                                  | Python                                                                                                |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [**Reverse Integer**](#reverse-integer)     | [**Reverse Integer**](#reverse-integer)                                                               |
+| [**Palindrome Number**](#palindrome-number) | [**Palindrome Number**](#palindrome-number)                                                           |
+| [**Twin Primes**](#twin-primes)             | [**Merge Two Sorted Lists**](#merge-two-sorted-lists)                                                 |
+| [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)                                                   |
+| [**Reverse String**](#reverse-string)       | [**Longest Substring Without Repeating Characters**](#longest-substring-without-repeating-characters) |
+| [**Reverse Number**](#reverse-number)       | [**Remove Element**](#remove-element)                                                                 |
+| [**Reverse Case**](#reverse-case)           |                                                                                                       |
+| [**Valid Parentheses**](#valid-parentheses) |                                                                                                       |
+| [**Stack Machine**](#stack-machine)         |                                                                                                       |
 
 #
 
@@ -274,3 +274,42 @@ Merge two sorted linked lists and return it as a new sorted list. The new list s
 These are linked lists, not arrays.
 
 **Link to Challenge:** https://leetcode.com/problems/merge-two-sorted-lists/
+
+### Longest Substring Without Repeating Characters
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/longestSubstringWithoutRepeatingCharacters.py)
+
+**Task**
+
+Given a string, find the length of the longest substring without repeating characters.
+
+**For Example:**
+
+| Input      | Output |
+| ---------- | ------ |
+| "abcabcbb" | 3      |
+| "bbbbbb"   | 1      |
+| "pwwkew"   | 3      |
+
+**Link to Challenge:** https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+### Remove Element
+
+:eyes: [See Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/removeElement.py)
+
+**Task**
+
+Given an array nums and a value val, remove all instances of that value _in-place_ and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+
+**For Example:**
+
+| Input                             | Output |
+| --------------------------------- | ------ |
+| nums = [3,2,2,3], val = 3         | 2      |
+| nums = [0,1,2,2,3,0,4,2], val = 2 | 5      |
+
+**Link to Challenge:** https://leetcode.com/problems/remove-element/
