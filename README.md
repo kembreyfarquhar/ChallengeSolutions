@@ -8,19 +8,46 @@ created by [@kembreyfarquhar](https://github.com/kembreyfarquhar)
 
 ### Table of Contents
 
-| JavaScript                                  | Python                                                                                                |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [**Reverse Integer**](#reverse-integer)     | [**Reverse Integer**](#reverse-integer)                                                               |
-| [**Palindrome Number**](#palindrome-number) | [**Palindrome Number**](#palindrome-number)                                                           |
-| [**Twin Primes**](#twin-primes)             | [**Merge Two Sorted Lists**](#merge-two-sorted-lists)                                                 |
-| [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)                                                   |
-| [**Reverse String**](#reverse-string)       | [**Longest Substring Without Repeating Characters**](#longest-substring-without-repeating-characters) |
-| [**Reverse Number**](#reverse-number)       | [**Remove Element**](#remove-element)                                                                 |
-| [**Reverse Case**](#reverse-case)           |                                                                                                       |
-| [**Valid Parentheses**](#valid-parentheses) |                                                                                                       |
-| [**Stack Machine**](#stack-machine)         |                                                                                                       |
+| JavaScript                                  | Python                                                                                                | PHP                     |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- |
+| [**Two Sum**](#two-sum)                     | [**Two Sum**](#two-sum)                                                                               | [**Two Sum**](#two-sum) |
+| [**Reverse Integer**](#reverse-integer)     | [**Reverse Integer**](#reverse-integer)                                                               |                         |
+| [**Palindrome Number**](#palindrome-number) | [**Palindrome Number**](#palindrome-number)                                                           |                         |
+| [**Twin Primes**](#twin-primes)             | [**Merge Two Sorted Lists**](#merge-two-sorted-lists)                                                 |                         |
+| [**Longest String**](#longest-string)       | [**Longest Common Prefix**](#longest-common-prefix)                                                   |                         |
+| [**Reverse String**](#reverse-string)       | [**Longest Substring Without Repeating Characters**](#longest-substring-without-repeating-characters) |                         |
+| [**Reverse Number**](#reverse-number)       | [**Remove Element**](#remove-element)                                                                 |                         |
+| [**Reverse Case**](#reverse-case)           |                                                                                                       |                         |
+| [**Valid Parentheses**](#valid-parentheses) |                                                                                                       |                         |
+| [**Stack Machine**](#stack-machine)         |                                                                                                       |                         |
 
 #
+
+### Two Sum
+
+:eyes: [See JavaScript Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/JavaScript/twoSum.js)
+
+:eyes: [See Python Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/Python/twoSum.py)
+
+:eyes: [See PHP Solution](https://github.com/kembreyfarquhar/ChallengeSolutions/blob/master/My%20Solutions/PHP/twoSum.php)
+
+**Task:**
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+**For Example:**
+
+| Input                                 | Output   |
+| ------------------------------------- | -------- |
+| nums = `[2, 7, 11, 15]`, target = `9` | `[0, 1]` |
+
+**Note:**
+
+Make sure you are returning the _indicies_ of the values, not the values themselves.
+
+**Link to Challenge:** https://leetcode.com/problems/two-sum/
 
 ### Stack Machine
 
