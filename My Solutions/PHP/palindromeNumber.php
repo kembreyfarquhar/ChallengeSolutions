@@ -3,7 +3,12 @@
 * @return Boolean
 */
 function isPalindrome($x) {
-    if($x < 0) { return false; } $numList=[]; while ($x> 0) {
+    if($x < 0) { 
+        return false; 
+    } 
+    
+    $numList=[]; 
+    while ($x > 0) {
         array_unshift($numList, $x % 10);
         $x = ($x / 10) | 0;
     }
