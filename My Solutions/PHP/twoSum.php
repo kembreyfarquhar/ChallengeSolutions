@@ -1,9 +1,11 @@
+<?php
+
 class Solution {
 
     /**
-     * @param Integer[] $nums
-     * @param Integer $target
-     * @return Integer[]
+     * @param Int[] $nums
+     * @param Int $target
+     * @return Int[]
      */
     function twoSum($nums, $target) {
         for ($x = 0; $x < count($nums); $x++) {

@@ -1,5 +1,6 @@
+<?php 
 /**
-* @param Integer $x
+* @param Int $x
 * @return Boolean
 */
 function isPalindrome($x) {
